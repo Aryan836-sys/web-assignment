@@ -7,8 +7,8 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #766d6d;
+  color: #807070;
 }
 
 header {
@@ -76,4 +76,14 @@ form {
 input, textarea, button {
   padding: 0.5rem;
   font-size: 1rem;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
