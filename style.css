@@ -87,3 +87,52 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
+
+
+/* HERO SECTION */
+.hero {
+  background-color: #f0f0f0;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* HOME PAGE GRID */
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+/* SIMPLE ANIMATION */
+.home-grid article {
+  background-color: #fafafa;
+  padding: 1.5rem;
+  border-radius: 6px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.home-grid article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h2 {
+    font-size: 1.6rem;
+  }
+}
