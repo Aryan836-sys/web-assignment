@@ -7,13 +7,13 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #766d6d;
+  background-color: #867b7b;
   color: #807070;
 }
 
 header {
-  background: #222;
-  color: #fff;
+  background: #db5353;
+  color: #1c26e6;
   padding: 1rem;
 }
 
@@ -134,5 +134,69 @@ body {
 
   .hero h2 {
     font-size: 1.6rem;
+  }
+}
+
+/* PROJECT PAGE  */
+.projects-layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+/* Project card */
+.project-item {
+  background-color: #fafafa;
+  border-radius: 6px;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 150px auto;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Wide project */
+.project-item.wide {
+  grid-column: span 2;
+}
+
+/* Placeholder image */
+.project-image {
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #666;
+}
+
+/* Content */
+.project-content {
+  padding: 1rem;
+}
+
+/* Hover effect */
+.project-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .projects-layout {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .project-item.wide {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .project-item.wide {
+    grid-column: span 1;
   }
 }
