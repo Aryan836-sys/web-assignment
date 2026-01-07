@@ -200,3 +200,48 @@ body {
     grid-column: span 1;
   }
 }
+
+/* CONTACT PAGE */
+.contact-details {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 2rem;
+}
+
+.contact-details li {
+  margin-bottom: 0.5rem;
+}
+
+/* Form styling */
+form {
+  max-width: 500px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #555;
+}
+
+button {
+  background-color: #222;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #444;
+}
