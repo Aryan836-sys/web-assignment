@@ -245,3 +245,54 @@ button {
 button:hover {
   background-color: #444;
 }
+/* HIDE CHECKBOX */
+.menu-checkbox {
+  display: none;
+}
+
+/* HAMBURGER ICON */
+.menu-icon {
+  display: none;
+  font-size: 1.8rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* MOBILE NAVIGATION */
+@media (max-width: 768px) {
+
+  header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  nav {
+    display: none;
+    grid-column: 1 / -1;
+  }
+
+  nav ul {
+    flex-direction: column;
+    background-color: #222;
+    padding: 1rem 0;
+  }
+
+  nav ul li {
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+
+  /* SHOW MENU WHEN CHECKED */
+  .menu-checkbox:checked + .menu-icon + nav {
+    display: block;
+  }
+
+  main {
+    padding: 1rem;
+  }
+}
