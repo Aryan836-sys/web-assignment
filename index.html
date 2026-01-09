@@ -9,7 +9,10 @@
 <body>
 
 <header>
-  <h1>My Portfolio</h1>
+<h1 class="logo">
+  <a href="index.html">My Portfolio</a>
+</h1>
+
  <input type="checkbox" id="menu-toggle" class="menu-checkbox">
 
 <label for="menu-toggle" class="menu-icon" aria-label="Toggle navigation">
@@ -30,34 +33,77 @@
 
 <main>
 
-
+  
   <section class="hero">
-    <div class="hero-text">
-      <h2>Hi, I’m Aryan </h2>
-      <p class="tagline">Web Development Student & Aspiring Developer</p>
+    <h2>Hi, I’m Aryan</h2>
+    <p class="tagline">Web Development Student & Aspiring Developer</p>
+  </section>
+
+  
+  <section class="section-block">
+    <header class="section-title">
+      <span></span>
+      <h3>About Me</h3>
+      <span></span>
+    </header>
+
+    <div class="about-layout">
+      <div class="about-text">
+        <p>
+          I am a web development student currently learning HTML, CSS, and responsive
+          design. This portfolio website is part of my CSY1063 module and reflects my
+          learning progress throughout the term.
+        </p>
+
+        <p>
+          I enjoy creating clean, structured layouts and gradually improving usability
+          and responsiveness through modern web standards.
+        </p>
+      </div>
+
+      <div class="about-placeholder">
+        Image
+      </div>
     </div>
   </section>
 
   
-  <section class="home-grid">
-    <article>
-      <h3>About Me</h3>
-      <p>
-        I am a student studying Web Development. This portfolio website has been created
-        as part of my CSY1063 module to demonstrate my understanding of HTML, CSS, and Git.
-      </p>
-    </article>
-
-    <article>
+  <section class="section-block">
+    <header class="section-title">
+      <span></span>
       <h3>What This Site Shows</h3>
-      <p>
-        This website includes my projects, a site report, and a video demonstration
-        explaining the design and development process.
-      </p>
-    </article>
+      <span></span>
+    </header>
+
+    <div class="info-layout">
+      <article>
+        <h4>Projects</h4>
+        <p>
+          A collection of coursework and personal projects that demonstrate my technical
+          and design skills.
+        </p>
+      </article>
+
+      <article>
+        <h4>Learning Journey</h4>
+        <p>
+          A detailed site report explaining the design decisions, challenges, and
+          development process behind this website.
+        </p>
+      </article>
+
+      <article>
+        <h4>Video Demonstration</h4>
+        <p>
+          A short walkthrough of the website explaining layout, structure, and CSS
+          techniques used.
+        </p>
+      </article>
+    </div>
   </section>
 
 </main>
+
 
 <footer>
   <p>&copy; 2026 Aryan Parajuli</p>
