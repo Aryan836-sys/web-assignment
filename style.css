@@ -424,3 +424,8 @@ button {
   height: 100%;
   border: 0;
 }
+.video-box iframe {
+  border: none;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
