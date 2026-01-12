@@ -39,6 +39,292 @@
       this portfolio website. The content will be expanded as the project progresses.
     </p>
   </section>
+    <section>
+    <h1>Site Report – CSY1063 Web Development Assignment</h1>
+  </section>
+
+  <section>
+    <h2>1. Introduction</h2>
+    <p>
+      This website was developed as part of the CSY1063 Web Development module.  With an emphasis on semantic structure, layout design, and responsive behaviour, the project aims to show my grasp on fundamental web technologies, particularly HTML and CSS. Throughout the module, the website serves as my personal portfolio, introducing me, showing my work, and  my learning process.The development process was spread across several days, with the requirement to use only HTML and CSS, small improvements were made to the structure, layout, styling, and responsiveness .
+    </p>
+
+    
+  </section>
+
+  <section>
+    <h2>2. Planning and Initial Setup</h2>
+    <p>
+      I used the assignment brief to plan the website's structure before I wrote any code. There are five primary pages on the website:
+    </p>
+
+    <ul>
+      <li>Home (index.html)</li>
+      <li>Projects (project.html)</li>
+      <li>Contact (contact.html)</li>
+      <li>Video Demonstration (videoDemo.html)</li>
+      <li>Site Report (sitereport.html)</li>
+    </ul>
+
+    <p>
+      All pages were designed with a consistent layout to guarantee professionalism and usability.  This included same header, navigation bar, main content area, and footer across all of my pages.o keep files organised, a clear folder structure was first established.
+    </p>
+
+    <p>The project uses the following structure:</p>
+
+    <ul>
+      <li>HTML files stored in the root directory</li>
+      <li>A single external CSS file for styling</li>
+      <li>An image folder for images</li>
+    </ul>
+
+    <p>The site is easier to maintain thanks to this structure.</p>
+
+  </section>
+
+  <section>
+    <h2>3. HTML Structure and Semantics</h2>
+    <p>
+      Throughout the project,  HTML is used to increase clarity and accessibility. Meaningful tags like &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;section&gt;, &lt;article&gt;, and &lt;footer&gt; were used in place of generic div elements.
+    </p>
+
+    <ul>
+      <li>The header contains the site logo and navigation menu</li>
+      <li>The navigation bar links all five pages</li>
+      <li>The main section holds page-specific content</li>
+      <li>The footer contains copyright information</li>
+    </ul>
+
+    <p>
+      Semantic elements make the code easier to read and guarantee that it is compatible with search engines and screen readers.
+    </p>
+  </section>
+
+  <section>
+    <h2>4. CSS Design and Layout</h2>
+
+    <h3>4.1 CSS Grid Layout</h3>
+    <p>
+      The primary layout method was CSS Grid for this project . To show adaptability and comprehension of grid-based design, various grid configurations were used on various pages.
+    </p>
+
+    <ul>
+      <li>Two-column grid layout on the Home page for the About section</li>
+      <li>Three-column grid layout for project and information cards</li>
+      <li>Single-column layouts on smaller screens</li>
+    </ul>
+
+    <h3>4.2 Spacing and Alignment</h3>
+    <p>
+      To ensure that all interactive elements are evenly spaced, particular attention was paid to the distance between buttons and navigation links. This enhances usability and prevents clutter. To make each section of the page feel purposeful, blank or unnecessary spaces were removed.
+    </p>
+
+    <h3>4.3 Typography and Colours</h3>
+    <p>
+      I chose simple fonts and colour schemes that don't stand out too much so that the design is clean and easy to read. To make it easier to read, there was a lot of contrast between the text and the background.
+    </p>
+    
+  </section>
+
+  <section>
+    <h2>5. Home Page Design</h2>
+    <ul>
+      <li>A hero section with a welcome message and tagline</li>
+      <li>An About Me section describing my background and my interests</li>
+      <li>A section explaining what the website contains</li>
+    </ul>
+
+    <p>
+      The user can scroll through the page naturally because the content is organised into sections that are stacked vertically. This design is unique and suitable for an academic submission, but it draws inspiration from contemporary portfolio websites.
+    </p>
+
+    <p>
+      To improve user interaction, CSS was used to add hover effects and transitions.
+    </p>
+    <h3>Home Page initial design</h3>
+
+      <figure class="report-figure">
+      <img src="images/homepage.jpg" alt=" image for home page design">
+      <figcaption>Figure 3: image for home page design.</figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <h2>6. Projects Page</h2>
+    <p>
+      To show versatility, the Projects page uses a different CSS Grid layout. Project cards with a title and description were added as placeholders. When the user interacts with specific projects, hover effects are used to visually highlight them.
+    </p>
+
+    <p>
+      Using media queries, the layout adjusts to various screen sizes, guaranteeing mobile device usability.
+    </p>
+    <h3>Projects Page initial design</h3>
+    <figure class="report-figure">
+      <img src="images/projectspage.jpg" alt=" image for projects page design">
+      <figcaption>Figure 3: image for projects page design.</figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <h2>7. Contact Page</h2>
+    <ul>
+      <li>Contact details</li>
+      <li>A functional email form using the mailto: method</li>
+    </ul>
+
+    <p>Accessibility was considered by:</p>
+
+    <ul>
+      <li>Using labels for all form inputs</li>
+      <li>Providing placeholders to guide the user</li>
+      <li>Ensuring proper spacing and readable form layout</li>
+    </ul>
+
+    <p>
+      Although no server-side processing is used, the form shows understanding of form structure and user interaction using HTML and CSS .
+    </p>
+    
+    </figure>
+  </section>
+
+  <section>
+    <h2>8. Responsive Design</h2>
+    <ul>
+      <li>Navigation links stacking vertically on mobile devices</li>
+      <li>Grid layouts switching from multiple columns to a single column</li>
+      <li>Font sizes and spacing adjusted for readability</li>
+    </ul>
+
+    <p>
+      As per the module requirement. All responsive behaviour was achieved by using CSS .
+    </p>
+  </section>
+
+  <section>
+    <h2>9. Problems Faced and Solutions</h2>
+
+    <h3>9.1 File Path Issues</h3>
+    <p>
+      Incorrect file paths were a major problem, particularly when linking images and CSS files. By realising that CSS paths are relative to the location of the CSS file and modifying paths appropriately, this issue was fixed.
+    </p>
+
+    <h3>9.2 Spacing and Alignment Problems</h3>
+    <p>
+      At first , some of the  pages had uneven spacing and unwanted blank areas. This was fixed by refining grid layouts, margins, and padding values.
+    </p>
+
+    
+  </section>
+  <section>
+  <h2>Use of AI Tools</h2>
+
+  <p>
+    During the development of this website,I used  AI tools as a learning
+    aid to support me in learning responsive design concepts and mobile
+    usability. The AI assisted me on how CSS Grid, media queries,
+    and layout adjustments work on smaller screen sizes.
+  </p>
+
+  <p>
+    AI was not used to generate the full website or copy
+    complete solutions. Instead, it was used to clarify concepts, suggest
+    improvements, and help troubleshoot layout and validation issues while
+    I implemented and tested the final code myself.
+  </p>
+
+  <p>
+    In particular, AI guidance helped improve the mobile layout by:
+  </p>
+
+  <ul>
+    <li>Explaining how media queries adapt layouts for small screens</li>
+    <li>Improving spacing and alignment for mobile navigation</li>
+    <li>Identifying accessibility issues during validation</li>
+    
+  </ul>
+
+  <p>
+    This made sure  that the website remained within with the module
+    requirement to use HTML and CSS while improving responsiveness
+    and usability of the website.
+  </p>
+</section>
+
+  <section>
+  <h2>Validation Screenshots</h2>
+  <p>
+    The following screenshots provide evidence that the website was validated
+    using the W3C HTML and CSS validation tools. These screenshots demonstrate
+    compliance with web standards and best practices.
+  </p>
+
+  <figure class="report-figure">
+    <img
+      src="images/indexvalid.jpg"
+      alt="W3C HTML validator showing no errors for index.html"
+    >
+    <figcaption>
+      Figure 5: HTML validation result for the Home page (index.html).
+    </figcaption>
+  </figure>
+    <figure class="report-figure">
+    <img
+      src="images/projectvalid.jpg"
+      alt="W3C HTML validator showing no errors for projects page"
+    >
+    <figcaption>
+      Figure 6: HTML validation result for the projects page.
+    </figcaption>
+  </figure>
+
+
+  <figure class="report-figure">
+    <img
+      src="images/contactvalid.jpg"
+      alt="W3C HTML validator showing no errors for contact page"
+    >
+    <figcaption>
+      Figure 6: HTML validation result for the Contact page.
+    </figcaption>
+  </figure>
+
+  <figure class="report-figure">
+    <img
+      src="images/cssvalid.jpg"
+      alt="W3C CSS validator showing no errors in style.css"
+    >
+    <figcaption>
+      Figure 7: CSS validation result for the external stylesheet.
+    </figcaption>
+  </figure>
+</section>
+
+
+  <section>
+    <h2>10. Reflection and Learning Outcomes</h2>
+    <ul>
+      <li>Semantic HTML structure</li>
+      <li>CSS Grid and responsive layouts</li>
+      <li>Accessibility considerations</li>
+      <li>Clean project organisation</li>
+      <li>Incremental development and version control</li>
+    </ul>
+
+    <p>
+      The project helped me in making me more comfortable with best practices in front-end development and responsive design with HTML and CSS.
+    </p>
+  </section>
+
+  <section>
+    <h2>11. Conclusion</h2>
+    <p>
+      This website successfully meets the requirements of the CSY1063 assignment. It shows a consistent design, clean structure, responsive behaviour, and thoughtful problem-solving. The development process was structured and repeated , allowing for continuous improvement while following the module constraints strictly.
+    </p>
+
+    <p>
+      Overall, this project shows my learning progress and understanding of web development principles.
+    </p>
+  </section>
 </main>
 
 <footer>

@@ -429,3 +429,29 @@ button {
   width: 100%;
   aspect-ratio: 16 / 9;
 }
+
+main section {
+  margin-bottom: 2rem;
+  max-width: 900px;
+}
+
+main h1, main h2 {
+  margin-bottom: 0.5rem;
+}
+.report-figure {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.report-figure img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.report-figure figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
